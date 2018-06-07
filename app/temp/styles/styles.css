@@ -719,24 +719,24 @@ a {
 
 @media (min-width: 800px) {
 
-.row--equal-height-at-medium {
+.flexbox .row--equal-height-at-medium {
       display: flex
   }
     }
 
-.row--equal-height-at-medium > div {
+.flexbox .row--equal-height-at-medium > div {
       float: none;
       display: flex;
     }
 
 @media (min-width:1010px) {
 
-.row--equal-height-at-large {
+.flexbox .row--equal-height-at-large {
       display: flex
   }
     }
 
-.row--equal-height-at-large > div {
+.flexbox .row--equal-height-at-large > div {
       float: none;
       display: flex;
     }
@@ -892,6 +892,10 @@ a {
 
 .icon {
       background-image: url('/assets/images/sprites/sprite-d675eadb.svg');
+    }
+
+.no-svg .icon {
+      background-image: url('/assets/images/sprites/sprite-d675eadb.png')
     }
 
 .icon--clear-view-escapes {
